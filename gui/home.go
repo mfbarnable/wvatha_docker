@@ -14,6 +14,7 @@ func GetHomePage() ui.Drawable {
 	l.TextStyle = ui.NewStyle(ui.ColorYellow)
 	l.WrapText = false
 	l.SetRect(0, 0, 25, 8)
+
 	return l
 
 }
